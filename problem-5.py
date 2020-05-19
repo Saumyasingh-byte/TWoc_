@@ -1,5 +1,5 @@
-n = int(input("Enter the Value of N: "))
-for i in range(n):
-    print("* " * (n - i) +"    " * i +" *" * (n - i))
-for i in range(1,n + 1):
-    print("* " * i +"    " * (n - i) +" *" * i)
+N = int(input("Enter the Value of N: "))
+for i in range(N):
+    print((str(N - i) + "*") * (N - 1 - i) + str(N - i))
+for i in range(1,N + 1):
+    print((str(i) + "*") * (i - 1) + str(i))
